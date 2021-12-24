@@ -25,6 +25,6 @@
       "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-linux/csound-vst3-linux.zip",
       "extractpath": "build-linux/lib/Release/libvst3_plugins.so",
       "build_platform": "Unknown"
-    },
+    }
   }
 }

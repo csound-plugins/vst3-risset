@@ -42,10 +42,10 @@ alwayson "JX10_Output"
 alwayson "Piano_Output"
 alwayson "Master_Output"
 
-gi_vst3_handle_jx10 vst3init "mda-vst3-linux.vst3", "mda JX10", 1
+gi_vst3_handle_jx10 vst3init "mda-vst3.vst3", "mda JX10", 1
 vst3info gi_vst3_handle_jx10
 
-gi_vst3_handle_piano vst3init "mda-vst3-linux.vst3", "mda Piano", 1
+gi_vst3_handle_piano vst3init "mda-vst3.vst3", "mda Piano", 1
 vst3info gi_vst3_handle_piano
 
 // Array of instrument plugins indexed by instrument number, for sending 

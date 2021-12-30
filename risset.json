@@ -27,12 +27,11 @@
       "build_platform": "Unknown"
     }
   },
-  "assets": {
-  	"linux": [
-      {
-        "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-linux/csound-vst3-linux.zip",
-  		  "extractpath": "build-linux/VST3/Release/*.vst3"
-  		}	
-  	]
-  }
+  "assets": [
+    {
+      "platform": "linux",
+      "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-linux/csound-vst3-linux.zip",
+      "extractpath": "build-linux/VST3/Release/*.vst3"
+    }
+  ]
 }

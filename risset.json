@@ -25,6 +25,16 @@
       "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-linux/csound-vst3-linux.zip",
       "extractpath": "build-linux/lib/Release/libvst3_plugins.so",
       "build_platform": "Unknown"
+    },
+    "windows": {
+      "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-windows/csound-vst3-windows.zip",
+      "extractpath": "build-windows/lib/Release/vst3_plugins.dll",
+      "build_platform": "Unknown"
+    },
+    "macos": {
+      "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-macos/csound-vst3-macos.zip",
+      "extractpath": "build-macos/lib/Debug/libvst3_plugins.dylib",
+      "build_platform": "Unknown"
     }
   },
   "assets": [

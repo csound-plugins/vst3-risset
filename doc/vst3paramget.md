@@ -13,7 +13,7 @@ plugin.
 ## Syntax
 
 ```csound
-k_value vst3paramset i_handle, k_parameter
+k_value vst3paramget i_handle, k_parameter
 ```
     
 ## Arguments

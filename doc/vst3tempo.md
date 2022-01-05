@@ -17,7 +17,8 @@ match. Tempo changes can occur at k-rate.
 
 
 ```csound
-vst3note i_handle, k_beats_per_minute
+
+vst3tempo i_handle, k_beats_per_minute
 
 ```
     

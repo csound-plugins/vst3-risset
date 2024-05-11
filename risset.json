@@ -48,7 +48,7 @@
             "extractpath": "build-macos/lib/Debug/libvst3_plugins.dylib",
             "build_platform": "Unknown",
             "csound_version": ">=6.18<7.0"
-        },
+        }
 
     ],
 

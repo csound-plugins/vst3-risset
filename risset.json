@@ -1,6 +1,6 @@
 {
     "name": "vst3",
-    "version": "0.3.0",
+    "version": "1.1.0",
     "opcodes": [
         "vst3audio",
         "vst3info",
@@ -15,56 +15,48 @@
     ],
     "short_description": "Host vst3 plugins in csound",
     "long_description": "These are a set of csound opcodes that enable csound to host VST3 plugins: both effect plugins and instrument plugins",
-    "csound_version": "6.16",
+    "csound_version": "6.18",
     "author": "Michael Gogins",
     "email": "michael.gogins@gmail.com",
     "license": "GPLv3",
     "repository": "https://github.com/gogins/csound-vst3-opcodes",
     "binaries": [
         {
-            "platform": "linux",
-            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-linux/csound-vst3-linux.zip",
+            "platform": "linux-x86_64",
+            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v$version-linux-release/csound-vst3-linux.zip",
             "extractpath": "build-linux/lib/Release/libvst3_plugins.so",
             "build_platform": "Unknown",
             "csound_version": ">=6.18<7.0"
         },
         {
-            "platform": "windows",
-            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-windows/csound-vst3-windows.zip",
+            "platform": "windows-x86_64",
+            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v$version-windows-release/csound-vst3-windows.zip",
             "extractpath": "build-windows/lib/Release/vst3_plugins.dll",
             "build_platform": "Unknown",
             "csound_version": ">=6.18<7.0"
         },
         {
-            "platform": "macos",
-            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-macos/csound-vst3-macos.zip",
+            "platform": "macos-x86_64",
+            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v$version-macos-release/csound-vst3-macos.zip",
             "extractpath": "build-macos/lib/Debug/libvst3_plugins.dylib",
             "build_platform": "Unknown",
             "csound_version": ">=6.18<7.0"
-        }
+        },
+        {
+            "platform": "macos-arm64",
+            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v$version-macos-release/csound-vst3-macos.zip",
+            "extractpath": "build-macos/lib/Debug/libvst3_plugins.dylib",
+            "build_platform": "Unknown",
+            "csound_version": ">=6.18<7.0"
+        },
+
     ],
-    "_binaries": {
-        "linux": {
-            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-linux/csound-vst3-linux.zip",
-            "extractpath": "build-linux/lib/Release/libvst3_plugins.so",
-            "build_platform": "Unknown"
-        },
-        "windows": {
-            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-windows/csound-vst3-windows.zip",
-            "extractpath": "build-windows/lib/Release/vst3_plugins.dll",
-            "build_platform": "Unknown"
-        },
-        "macos": {
-            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-macos/csound-vst3-macos.zip",
-            "extractpath": "build-macos/lib/Debug/libvst3_plugins.dylib",
-            "build_platform": "Unknown"
-        }
-    },
+
     "assets": [
         {
             "name": "vst3 test plugins",
             "platform": "linux",
-            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v0.3beta-linux/csound-vst3-linux.zip",
+            "url": "https://github.com/gogins/csound-vst3-opcodes/releases/download/v1.1.0-linux/csound-vst3-linux.zip",
             "extractpath": "build-linux/VST3/Release/*.vst3"
         }
     ]
